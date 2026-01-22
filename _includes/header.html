@@ -28,8 +28,17 @@
         Contact
         </a>
     </nav>
-    <button class="md:hidden">
+    <button id="menu-toggle" class="md:hidden">
       <span class="material-symbols-outlined">menu</span>
     </button>
   </div>
+
+  <!-- Mobile menu (initially hidden) -->
+  <nav id="mobile-menu" class="hidden md:hidden py-4 px-6 bg-white border-t border-gray-100">
+    <a class="block text-sm font-medium text-primary uppercase tracking-widest"
+        href="{{ '/contact' | relative_url }}">
+      Contact
+    </a>
+  </nav>
+  <script src="{{ '/assets/js/menu-toggle.js' | relative_url }}" defer></script>
 </header>

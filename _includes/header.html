@@ -1,0 +1,35 @@
+<header class="w-full border-b border-gray-100 bg-white/50 backdrop-blur-sm sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="size-10 bg-mint rounded-full flex items-center justify-center text-charcoal">
+        <span class="material-symbols-outlined text-xl">auto_awesome</span>
+      </div>
+      <h1 class="text-2xl font-semibold tracking-tight text-charcoal">
+        <a href="{{ '/about' | relative_url }}">
+          Natalia Glotova
+        </a>
+      </h1>
+    </div>
+    <nav class="hidden md:flex items-center gap-10">
+      <!-- <a class="text-sm font-medium hover:text-primary transition-colors uppercase tracking-widest"
+        href="{{ '/' | relative_url }}">
+        Home
+      </a>
+      <a class="text-sm font-medium hover:text-primary transition-colors uppercase tracking-widest"
+        href="{{ '#' | relative_url }}">
+        Projects
+      </a>
+      <a class="text-sm font-medium hover:text-primary transition-colors uppercase tracking-widest"
+        href="{{ '/about' | relative_url }}">
+        About
+      </a> -->
+      <a class="text-sm font-medium text-primary uppercase tracking-widest"
+        href="{{ '/contact' | relative_url }}">
+        Contact
+        </a>
+    </nav>
+    <button class="md:hidden">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
+  </div>
+</header>

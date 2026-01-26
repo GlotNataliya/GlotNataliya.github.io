@@ -5,8 +5,8 @@
         <span class="material-symbols-outlined text-xl">auto_awesome</span>
       </div>
       <h1 class="text-2xl font-semibold tracking-tight text-charcoal">
-        <a href="{{ '/about' | relative_url }}">
-          Natalia Glotova
+        <a href="{{ page.lang | prepend: '/' | append: '/about/' | relative_url }}">
+          {% if page.lang == 'ru' %}Наталия Глотова{% else %}Natalia Glotova{% endif %}
         </a>
       </h1>
     </div>
@@ -23,11 +23,19 @@
         href="{{ '/about' | relative_url }}">
         About
       </a> -->
-      <a class="text-sm font-medium text-primary uppercase tracking-widest"
-        href="{{ '/contact' | relative_url }}">
+      <a class="block text-sm font-medium text-primary uppercase tracking-widest"
+        href="{{ page.lang | prepend: '/' | append: '/contact/' | relative_url }}">
+        {% if page.lang == 'ru' %}Контакты{% else %}Contact{% endif %}
+      </a>
+      <!-- <a class="text-sm font-medium text-primary uppercase tracking-widest" href="{{ '/contact' | relative_url }}">
         Contact
-        </a>
+      </a> -->
     </nav>
+
+    <!-- Language switcher -->
+    {% include language-switcher.html %}
+
+    <!-- Mobile menu toggle -->
     <button id="menu-toggle" class="md:hidden">
       <span class="material-symbols-outlined">menu</span>
     </button>
@@ -36,8 +44,8 @@
   <!-- Mobile menu (initially hidden) -->
   <nav id="mobile-menu" class="hidden md:hidden py-4 px-6 bg-white border-t border-gray-100">
     <a class="block text-sm font-medium text-primary uppercase tracking-widest"
-        href="{{ '/contact' | relative_url }}">
-      Contact
+      href="{{ page.lang | prepend: '/' | append: '/contact/' | relative_url }}">
+      {% if page.lang == 'ru' %}Контакты{% else %}Contact{% endif %}
     </a>
   </nav>
   <script src="{{ '/assets/js/menu-toggle.js' | relative_url }}" defer></script>

@@ -1,11 +1,9 @@
 <footer class="w-full py-16 bg-white border-t border-gray-50">
-  <div
-    class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-center gap-8"
-  >
+  <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-center gap-8">
     <div class="flex items-center text-gray-400">
-      <span class="text-xs font-bold uppercase tracking-widest"
-        >© 2026 Web Developer &amp; a bit of a designer</span
-      >
+      <span class="text-xs font-bold uppercase tracking-widest">
+        {% if page.lang == 'ru' %}© 2026 Веб-разработчик &amp; немного дизайнер{% else %}© 2026 Web Developer &amp; a bit of a designer{% endif %}
+      </span>
     </div>
   </div>
 </footer>

@@ -1,0 +1,69 @@
+---
+layout: default
+lang: ru
+permalink: /ru/contact/
+title: Контакты
+---
+
+<body class="min-h-screen flex flex-col">
+  <main class="flex-grow flex items-center justify-center py-16 px-6">
+    <div class="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+      <div class="lg:col-span-5 flex flex-col gap-8 pt-8">
+        <div>
+          <h2 class="text-5xl md:text-6xl font-medium leading-[1.1] mb-6 text-charcoal">
+            Let's create something beautiful together
+          </h2>
+          <p class="text-gray-600 text-lg leading-relaxed max-w-md">
+            Send me a message, and I'll get back to you within 24 hours.
+          </p>
+        </div>
+        <div class="space-y-6 pt-4 relative">
+          <h3 class="text-xs font-bold uppercase tracking-[0.2em] text-gray-400">
+            Find me on
+          </h3>
+          <div class="flex flex-col gap-4">
+            <a class="flex items-center gap-4 group" href="https://github.com/GlotNataliya" target="_blank">
+              <div class="size-12 rounded-full bg-mint flex items-center justify-center text-charcoal group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                <span class="material-symbols-outlined">code</span>
+              </div>
+              <span class="font-medium border-b border-transparent group-hover:border-primary transition-all">
+                GitHub / GlotNataliya
+              </span>
+            </a>
+            <a class="flex items-center gap-4 group" href="https://linkedin.com/in/natalia-glotova-984055220" target="_blank">
+              <div class="size-12 rounded-full bg-lavender flex items-center justify-center text-charcoal group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                <span class="material-symbols-outlined">link</span>
+              </div>
+              <span class="font-medium border-b border-transparent group-hover:border-primary transition-all">
+                LinkedIn / natalia-glotova
+              </span>
+            </a>
+            <a class="flex items-center gap-4 group" href="mailto:hello@janedoe.dev">
+              <div class="size-12 rounded-full bg-gray-100 flex items-center justify-center text-charcoal group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                <span class="material-symbols-outlined">alternate_email</span>
+              </div>
+              <span class="font-medium border-b border-transparent group-hover:border-primary transition-all">
+                an.chishevich@yandex.ru
+              </span>
+            </a>
+          </div>
+          <div class="hidden lg:block absolute -right-12 top-4 text-primary opacity-60">
+            <svg class="rotate-12" fill="none" height="40" viewBox="0 0 80 40" width="80" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 38C15 35 45 25 75 5" stroke="currentColor" stroke-dasharray="2 4" stroke-linecap="round" stroke-width="1.5"></path>
+              <path d="M65 8L76 4L73 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+            </svg>
+            <span class="hand-drawn-arrow -top-4 -right-16 text-2xl">Write me</span>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-7">
+        <div class="bg-mint p-8 md:p-12 rounded-[2.5rem] shadow-sm border border-white/50 relative overflow-hidden">
+          <div class="absolute -top-24 -right-24 size-64 bg-white/30 rounded-full blur-3xl">
+          </div>
+          {% include contact-form.html %}
+          <script src="{{ '/assets/js/contact-form.js' | relative_url }}" defer></script>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: About
+lang: ru
+permalink: /ru/about/
+title: Обо мне
 ---
 
 <body class="bg-pastel-peach text-charcoal selection:bg-primary/20">
@@ -22,31 +24,36 @@ title: About
               <div class="flex flex-col gap-8 @[864px]:w-1/2">
                 <div class="flex flex-col gap-4">
                   <span class="text-primary font-bold tracking-[0.2em] text-xs uppercase">
-                    Behind the Code
+                    Мир прекрасен, когда он без изъянов
                   </span>
                   <h1 class="text-charcoal text-4xl font-bold leading-tight @[480px]:text-5xl">
-                    Crafting Digital Stories Through Logic &amp; Design
+                    Создание цифровых историй с помощью Логики &amp; Дизайна
                   </h1>
                   <p class="text-soft-gray text-lg leading-relaxed font-light italic border-l-4 border-primary/20 pl-4 py-1">
-                    "I believe code is the most versatile creative medium of our
-                    time. It's where the rigour of engineering meets the
-                    fluidity of art."
+                    «Трудно не согласиться, что код — это самый универсальный творческий инструмент нашего времени. Это место, где строгость
+                    инженерного дела сочетается с гибкостью искусства.»
                   </p>
                   <p class="text-charcoal/80 text-base font-normal leading-relaxed">
-                    As a Ruby on Rails developer with over 3 years of experience, I specialize in building high-performance web applications
-                    with clean code and intuitive user experiences. My full-stack background helps me implement complex business logic
-                    while keeping design and usability in focus.
+                    Мой опыт помогает мне создавать надежные веб-приложения с чистым, поддерживаемым кодом и продуманным
+                    пользовательским интерфейсом. В своей работе я стараюсь учитывать как бизнес-логику, так и потребности
+                    пользователей. Особое внимание уделяю стройной архитектуре, производительности, безопасности и масштабируемости
+                    создаваемых приложений. Постоянно изучаю новые инструменты и лучшие практики, чтобы предлагать современные
+                    и эффективные решения.
                   </p>
                 </div>
                 <div class="flex flex-wrap gap-4">
-                  <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-2xl h-14 px-6 bg-primary text-white text-base font-bold transition-all hover:scale-[1.02] shadow-sm">
-                    <a href="{{ '/assets/resume_en.pdf' | relative_url }}" download="natalia_glotova_resume.pdf" class="btn">
-                      Download Resume
-                    </a>
-                  </button>
-                  <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-2xl h-14 px-6 border-2 border-primary/20 bg-white text-primary text-base font-bold transition-all hover:bg-primary/5 hover:border-primary/40">
-                    View Portfolio
-                  </button>
+                  <a href="{{ '/assets/resume_en.pdf' | relative_url }}"
+                    download="natalia_glotova_resume.pdf"
+                    class="btn flex min-w-[160px] cursor-pointer items-center justify-center rounded-2xl h-14 px-6 bg-primary text-white text-base font-bold transition-all hover:scale-[1.02] shadow-sm"
+                    target="_blank">
+                    Скачать резюме
+                  </a>
+                  <a href="{{ 'https://github.com/GlotNataliya' | relative_url }}"
+                    download="natalia_glotova_resume.pdf"
+                    class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-2xl h-14 px-6 border-2 border-primary/20 bg-white text-primary text-base font-bold transition-all hover:bg-primary/5 hover:border-primary/40"
+                    target="_blank">
+                    Портфолио
+                  </a>
                 </div>
               </div>
             </div>
@@ -54,13 +61,12 @@ title: About
           <div class="px-4 mt-8">
             <div class="flex flex-col gap-1 mb-8">
               <h2 class="text-charcoal text-3xl font-bold tracking-tight">
-                Technical Expertise
+                Технические знания
               </h2>
               <div class="h-1.5 w-20 bg-primary/20 rounded-full"></div>
             </div>
             <p class="text-soft-gray text-base max-w-2xl mb-10">
-              A curated list of my core competencies across the modern web
-              stack.
+              Перечень моих основных компетенций в современном веб-стеке
             </p>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-4">
@@ -177,7 +183,7 @@ title: About
           <div class="px-4 py-20">
             <div class="flex flex-col gap-1 mb-12">
               <h2 class="text-charcoal text-3xl font-bold tracking-tight">
-                Professional Journey
+                Профессиональный путь
               </h2>
               <div class="h-1.5 w-20 bg-primary/20 rounded-full"></div>
             </div>
@@ -192,17 +198,17 @@ title: About
                 <div class="flex flex-col gap-2">
                   <div class="flex flex-col md:flex-row md:items-baseline justify-between gap-2">
                     <h4 class="text-xl font-bold text-charcoal">
-                      Professional development
+                      Профессиональное развитие, расширение компетенций
                     </h4>
                     <span class="px-3 py-1 rounded-full bg-primary/10 text-primary font-bold text-xs uppercase tracking-widest">
-                      May 2025 – Present
+                      Май 2025 – настоящее время
                     </span>
                   </div>
                   <p class="text-primary/80 font-semibold tracking-wide flex items-center gap-2 italic">
                     <span class="material-symbols-outlined text-sm">
                       payments
                     </span>
-                    Learner
+                    Изучающий
                   </p>
                   <div class="flex flex-wrap gap-2 mt-1">
                     <span class="flex items-center gap-1 px-2 py-1 rounded bg-primary/10 text-xs font-medium text-soft-gray">
@@ -225,9 +231,10 @@ title: About
                     </span>
                   </div>
                   <p class="text-soft-gray text-base mt-2 leading-relaxed max-w-3xl">
-                    - Deepening knowledge in Ruby on Rails and backend architecture. <br>
-                    - Studying best practices in system design, testing, and performance optimization. <br>
-                    - Working on personal projects, improving code quality, and experimenting.
+                    - Углубление знаний в Ruby on Rails и архитектуре бэкенда. <br>
+                    - Изучение лучших практик в проектировании систем, тестировании и оптимизации производительности. <br>
+                    - Работа над личными проектами, повышение качества кода и экспериментирование. <br>
+                    - Изучение возможностей использования и интеграции ИИ в приложения.
                   </p>
                 </div>
               </div>
@@ -241,14 +248,14 @@ title: About
                       BirdsBuild (bb.market)
                     </h4>
                     <span class="px-3 py-1 rounded-full bg-pastel-blue text-[#5C8AB0] font-bold text-xs uppercase tracking-widest">
-                      May 2023 - April 2025
+                      май 2023 - апрель 2025
                     </span>
                   </div>
                   <p class="text-[#5C8AB0] font-semibold tracking-wide flex items-center gap-2 italic">
                     <span class="material-symbols-outlined text-sm">
                       payments
                     </span>
-                    Backend Ruby on Rails developer
+                    Backend Ruby on Rails разработчик
                   </p>
                   <div class="flex flex-wrap gap-2 mt-1">
                     <span class="flex items-center gap-1 px-2 py-1 rounded bg-pastel-blue text-xs font-medium text-soft-gray">
@@ -274,16 +281,17 @@ title: About
                     </span>
                   </div>
                   <p class="text-soft-gray text-base mt-2 leading-relaxed max-w-3xl">
-                    Development and support of the backend portion of the B2B marketplace using Ruby on Rails.
-                    Implemented generation of marketing product feeds (CSV) for Yandex, Google, VK, MyTarget,
-                    and Facebook. Set up automated data collection and formation of distributor reports via Google
-                    Sheets API, including refactoring and optimization of reporting logic. <br>
-                    <br>
-                    Contributed to the development of the platform's multi-language functionality and the creation
-                    of a quick company registration form (brief). Collaborated with the frontend team to implement
-                    a quiz for the distributor entry point, real-time data updates using WebSockets, and email
-                    notifications. Performed integrations with external services (Bitrix24 API) and Tochka Bank API,
-                    maintained and supported API documentation using Swagger.
+                    Занималась разработкой и поддержкой backend-части B2B-маркетплейса на Ruby on Rails. <br>
+                    - Реализация скрипта генерации маркетинговых товарных фидов (CSV) для Яндекс, Google, VK, MyTarget и Facebook. <br>
+                    - Автоматизация сбора данных и генерации отчетов дистрибьюторов через Google Sheets API, включая рефакторинг и оптимизацию отчетной логики. <br>
+                    - Участие в разработке мультиязычности платформы. <br>
+                    - Создание формы быстрой регистрации компаний (бриф). <br>
+                    - Вместе с фронтендом реализация квиза для входной точки дистрибьюторов. <br>
+                    - Обновление данных в реальном времени с использованием WebSockets. <br>
+                    - Отправка почтовых уведомлений. <br>
+                    - Выполнение интеграции с внешними сервисами (API Bitrix24 и API банка Точка). <br>
+                    - Ведение и поддерживала API-документацию с помощью Swagger. <br>
+                    - Написание интегрционных тестов и т.д. <br>
                   </p>
                 </div>
               </div>
@@ -294,23 +302,23 @@ title: About
                 <div class="flex flex-col gap-2">
                   <div class="flex flex-col md:flex-row md:items-baseline justify-between gap-2">
                     <h4 class="text-xl font-bold text-charcoal">
-                      Hackathon Participant – Spark Venture Studio
+                      Участник хакатона от Spark Venture Studio
                     </h4>
                     <span class="px-3 py-1 rounded-full bg-[#F5E9F1] text-[#B05C8A] font-bold text-xs uppercase tracking-widest">
-                      Mart 2023 - April 2023
+                      март 2023 - апрель 2023
                     </span>
                   </div>
                   <p class="text-[#B05C8A] font-semibold tracking-wide flex items-center gap-2 italic">
                     <span class="material-symbols-outlined text-sm">
                       payments
                     </span>
-                    Startup Sprint & Product Ideation
+                    Стартап-спринт &amp; Генерация идей для продукта
                   </p>
                   <p class="text-soft-gray text-base mt-2 leading-relaxed max-w-3xl">
-                    - Took part in a high-intensity hackathon organized by Spark Venture Studio, completing the full startup cycle within tight deadlines: from problem discovery to investor-ready pitch. <br>
-                    - Collaborated with a cross-functional team to analyze target audience and market landscape, formulating validated product hypotheses. <br>
-                    - Contributed to ideation sessions, rapid prototyping in Figma, and development of a compelling pitch deck presented to a panel of judges and potential investors. <br>
-                    - Gained hands-on experience in agile teamwork, time-constrained decision-making, and effective communication across design, business, and technical roles.
+                    - Принимала участие в интенсивном хакатоне, организованном Spark Venture Studio, завершив полный стартап‑цикл в сжатые сроки: от выявления проблемы до презентации инвесторам. <br>
+                    - Работала в кросс‑функциональной команде над анализом целевой аудитории и рыночной среды, сформулировав проверенные гипотезы о продукте. <br>
+                    - Участвовала в сессиях генерации идей, быстром прототипировании в Figma и создании убедительной презентации, представленной жюри и потенциальным инвесторам. <br>
+                    - Получила практический опыт гибкой работы в команде, быстрого принятия решений в условиях нехватки времени и эффективной коммуникации между дизайнерами, бизнес‑аналитиками и техническими специалистами.
                   </p>
                 </div>
               </div>
@@ -322,17 +330,17 @@ title: About
                 <div class="flex flex-col gap-2">
                   <div class="flex flex-col md:flex-row md:items-baseline justify-between gap-2">
                     <h4 class="text-xl font-bold text-charcoal">
-                      Rails Internship Project at AreshnikovGroup
+                      Освоение на практике Ruby on Rails 7
                     </h4>
                     <span class="px-3 py-1 rounded-full bg-orange-300/10 text-orange-300 font-bold text-xs uppercase tracking-widest">
-                      October 2023 - December 2023
+                      октябрь 2023 - декабрь 2023
                     </span>
                   </div>
                   <p class="text-orange-300 font-semibold tracking-wide flex items-center gap-2 italic">
                     <span class="material-symbols-outlined text-sm">
                       corporate_fare
                     </span>
-                    Fullstack Developer (Ruby on Rails, Hotwire)
+                    Full-stack разработчик
                   </p>
                   <div class="flex flex-wrap gap-2 mt-1">
                     <span class="flex items-center gap-1 px-2 py-1 rounded bg-orange-300/10 text-xs font-medium text-soft-gray">
@@ -352,10 +360,10 @@ title: About
                     </span>
                   </div>
                   <p class="text-soft-gray text-base mt-2 leading-relaxed max-w-3xl">
-                    - Completed a hands-on internship under the mentorship of an experienced Rails developer, focusing on modern full-stack development with Ruby on Rails 7. <br>
-                    - Built a complete web application using Hotwire (Turbo and Stimulus) to deliver dynamic, responsive user interfaces without traditional JavaScript frameworks. <br>
-                    - Implemented both backend logic (models, controllers, APIs) and frontend interactivity entirely within the Rails ecosystem. <br>
-                    - Applied best practices in code structure, testing, and maintainability, with regular feedback and code reviews from the mentor.
+                    - Проходила практико‑ориентированную стажировку под руководством опытного разработчика, направленную на современную разработку приложения с использованием Ruby on Rails 7. <br>
+                    - Создавала полноценное веб‑приложение с помощью Hotwire (Turbo и Stimulus), обеспечивая динамичный и отзывчивый интерфейс без традиционных JavaScript фреймворков. <br>
+                    - Реализовывала как серверную логику (модели, контроллеры), так и клиентскую интерактивность целиком в экосистеме Rails. <br>
+                    - Применяла лучшие практики проектирования кода, тестирования и поддерживаемости, регулярно получая обратную связь и проходя ревью кода от ментора.
                   </p>
                 </div>
               </div>
@@ -370,14 +378,14 @@ title: About
                       SumatoSoft
                     </h4>
                     <span class="px-3 py-1 rounded-full bg-pastel-mint text-[#569A86] font-bold text-xs uppercase tracking-widest">
-                      October 2021 - July 2022
+                      октябрь 2021 - июль 2022
                     </span>
                   </div>
                   <p class="text-[#569A86] font-semibold tracking-wide flex items-center gap-2 italic">
                     <span class="material-symbols-outlined text-sm">
                       payments
                     </span>
-                    Fullstack developer
+                    Full-stack разработчик
                   </p>
                   <div class="flex flex-wrap gap-2 mt-1">
                     <span class="flex items-center gap-1 px-2 py-1 rounded bg-pastel-mint text-xs font-medium text-soft-gray">
@@ -403,10 +411,10 @@ title: About
                     </span>
                   </div>
                   <p class="text-soft-gray text-base mt-2 leading-relaxed max-w-3xl">
-                    - Started as a bug-fixing engineer. <br>
-                    - Progressed to full-stack development responsibilities: implemented new features, refactored legacy components, and ensured cross-browser compatibility. <br>
-                    - Worked with Ruby on Rails backend and frontend stack (React, JavaScript, jQuery), collaborating closely with QA. <br>
-                    - Took part in company-sponsored English language courses focused on improving spoken fluency and professional communication skills.
+                    - Начинала как инженер по исправлению ошибок. <br>
+                    - Перешла к разработке полного стека: внедряла новые функции, занималась рефакторингом устаревших компонентов, учитывая кроссбраузерную совместимость. <br>
+                    - Работала с бэкендом и фронтендом на Ruby on Rails (React, JavaScript, jQuery), тесно сотрудничая с командой QA. <br>
+                    - Принимала участие в оплачиваемых компанией курсах английского языка, направленных на улучшение разговорной речи и навыков профессионального общения.
                   </p>
                 </div>
               </div>
@@ -418,22 +426,22 @@ title: About
                 <div class="flex flex-col gap-2">
                   <div class="flex flex-col md:flex-row md:items-baseline justify-between gap-2">
                     <h4 class="text-xl font-bold text-charcoal">
-                      Self-Directed Learning and Development Practice
+                      Самостоятельное обучение, развитие и практика
                     </h4>
                     <span class="px-3 py-1 rounded-full bg-primary/10 text-primary font-bold text-xs uppercase tracking-widest">
-                      June 2021 — September 2021
+                      июнь 2021 — сентябрь 2021
                     </span>
                   </div>
                   <p class="text-primary/80 font-semibold tracking-wide flex items-center gap-2 italic">
                     <span class="material-symbols-outlined text-sm">
                       palette
                     </span>
-                    Learner
+                    Изучающая
                   </p>
                   <p class="text-soft-gray text-base mt-2 leading-relaxed max-w-3xl">
-                    - Practiced writing clean, maintainable code in Ruby and JavaScript. <br>
-                    - Studied technical documentation, articles, and books on web application architecture and API integration. <br>
-                    - Applied newly acquired knowledge in mini-projects and coding experiments.
+                    - Практиковалась в написании чистого, поддерживаемого кода на Ruby и JavaScript. <br>
+                    - Изучала техническую документацию, статьи и книги по архитектуре веб-приложений и интеграции API.
+                    - Применяла полученные знания в мини-проектах и ​​экспериментах по программированию.
                   </p>
                 </div>
               </div>
@@ -445,17 +453,17 @@ title: About
                 <div class="flex flex-col gap-2">
                   <div class="flex flex-col md:flex-row md:items-baseline justify-between gap-2">
                     <h4 class="text-xl font-bold text-charcoal">
-                      Team project after the Ruby on Rails course
+                      Командный проект после курса по Ruby on Rails
                     </h4>
                     <span class="px-3 py-1 rounded-full bg-violet-300/10 text-violet-300 font-bold text-xs uppercase tracking-widest">
-                      February 2021 — May 2021
+                      февраль 2021 — май 2021
                     </span>
                   </div>
                   <p class="text-violet-300 font-semibold tracking-wide flex items-center gap-2 italic">
                     <span class="material-symbols-outlined text-sm">
                       palette
                     </span>
-                      Fullstack Developer
+                    Full-stack разработчик
                   </p>
                   <div class="flex flex-wrap gap-2 mt-1">
                     <span class="flex items-center gap-1 px-2 py-1 rounded bg-violet-300/10 text-xs font-medium text-soft-gray">
@@ -475,9 +483,8 @@ title: About
                     </span>
                   </div>
                   <p class="text-soft-gray text-base mt-2 leading-relaxed max-w-3xl">
-                    Developing a web application is a collaborative project following a Ruby on Rails course:
-                    we assembled a team of developers, engaged an experienced mentor to lead the architecture
-                    and code review, and implemented a fully functional application using best practices.
+                    Реализовывала совместный проект по разработке веб-приложения, используя современные технологии и инструменты. Мы собрали команду начинающих разработчиков,
+                    привлекли опытного ментора для руководства архитектурой и анализа кода.
                   </p>
                 </div>
               </div>
@@ -489,17 +496,17 @@ title: About
                 <div class="flex flex-col gap-2">
                   <div class="flex flex-col md:flex-row md:items-baseline justify-between gap-2">
                     <h4 class="text-xl font-bold text-charcoal">
-                      A Ruby on Rails course (Rubycom) offered by BePaid's senior engineers.
+                      Курс по Ruby on Rails (Rubycom) от ведущих инженеров BePaid.
                     </h4>
                     <span class="px-3 py-1 rounded-full bg-primary/10 text-primary font-bold text-xs uppercase tracking-widest">
-                      September 2020 — January 2021
+                      сентябрь 2020 — январь 2021
                     </span>
                   </div>
                   <p class="text-primary/80 font-semibold tracking-wide flex items-center gap-2 italic">
                     <span class="material-symbols-outlined text-sm">
                       palette
                     </span>
-                    Learner
+                    Обучающаяся
                   </p>
                   <div class="flex flex-wrap gap-2 mt-1">
                     <span class="flex items-center gap-1 px-2 py-1 rounded bg-primary/10 text-xs font-medium text-soft-gray">
@@ -525,9 +532,8 @@ title: About
                     </span>
                   </div>
                   <p class="text-soft-gray text-base mt-2 leading-relaxed max-w-3xl">
-                    Studied Ruby on Rails and the fundamentals of React.
-                    Mastered the basic principles of web development: creating applications,
-                    working with databases, routing, as well as building simple interfaces using React.
+                    Изучала Ruby on Rails и основы React. Осваивала основные принципы веб-разработки: создание приложений,
+                    работа с базами данных, маршрутизация, а также создание простых интерфейсов с помощью React.
                   </p>
                 </div>
               </div>

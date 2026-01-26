@@ -1,0 +1,16 @@
+<div class="flex justify-end">
+    <div id="lang-toggle" class="relative flex w-[84px] items-center rounded-full bg-[#FFF9F6] p-1 cursor-pointer">
+    <!-- sliding knob -->
+    <div id="lang-knob" class="absolute left-1 top-1/2 h-8 w-10 -translate-y-1/2 rounded-full bg-[#E8A39C] transition-all duration-300">
+    </div>
+
+    <!-- labels -->
+    <span data-lang="ru" class="relative z-10 flex-1 text-center text-sm font-medium text-[#FFF9F6]">
+      RU
+    </span>
+    <span data-lang="en" class="relative z-10 flex-1 text-center text-sm font-medium text-[#6B7280]">
+      EN
+    </span>
+  </div>
+</div>
+<script src="{{ '/assets/js/language-switcher.js' | relative_url }}" defer></script>

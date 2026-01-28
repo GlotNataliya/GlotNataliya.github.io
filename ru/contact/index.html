@@ -11,15 +11,15 @@ title: Контакты
       <div class="lg:col-span-5 flex flex-col gap-8 pt-8">
         <div>
           <h2 class="text-5xl md:text-6xl font-medium leading-[1.1] mb-6 text-charcoal">
-            Let's create something beautiful together
+            Давайте создавать красивое вместе
           </h2>
           <p class="text-gray-600 text-lg leading-relaxed max-w-md">
-            Send me a message, and I'll get back to you within 24 hours.
+            Отправьте мне сообщение, и я отвечу вам в течение 24-х часов.
           </p>
         </div>
         <div class="space-y-6 pt-4 relative">
           <h3 class="text-xs font-bold uppercase tracking-[0.2em] text-gray-400">
-            Find me on
+            Связаться со мной
           </h3>
           <div class="flex flex-col gap-4">
             <a class="flex items-center gap-4 group" href="https://github.com/GlotNataliya" target="_blank">
@@ -52,7 +52,9 @@ title: Контакты
               <path d="M2 38C15 35 45 25 75 5" stroke="currentColor" stroke-dasharray="2 4" stroke-linecap="round" stroke-width="1.5"></path>
               <path d="M65 8L76 4L73 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
             </svg>
-            <span class="hand-drawn-arrow -top-4 -right-16 text-2xl">Write me</span>
+            <span class="hand-drawn-arrow -top-4 -right-16 text-2xl">
+              {% if page.lang == 'ru' %}Написать мне{% else %}Write me{% endif %}
+            </span>
           </div>
         </div>
       </div>

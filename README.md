@@ -2,7 +2,7 @@
 
 Personal portfolio website built with [Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages.
 
-🌍 Live website: https://glotnataliya.github.io/
+🌍 Live website: https://glotnataliya.github.io
 
 ## What’s inside
 
